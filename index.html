@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+        <div>
+            <div class="allInput">
+                <label class="label">Check</label>
+                <input id="check" type="text" placeholder="200" class="input">
+            </div>
+            <div class="allInput">
+                <label class="label">Percentage</label>
+                <input id="percentage" type="text" placeholder="10%" class="input">
+            </div>
+        </div>
+        <button class="button" onclick="calcPercentage()">Sum</button>
+    <span class="line"></span>
+    <div class="result">
+        <label class="label">Check:</label>
+        <div id="check_number"></div>
+        <div id="tip"></div>
+        <div id="tip_amount"></div>
+        <div id="total_sum"></div>
+    </div>
+</div>
+
+
+</body>
+</html>
